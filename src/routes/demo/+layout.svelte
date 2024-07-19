@@ -1,0 +1,4 @@
+<div>
+	Demo
+	<slot />
+</div>

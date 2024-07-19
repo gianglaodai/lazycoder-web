@@ -3,8 +3,8 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
+		"dev": "bunx --bun vite dev --open --host",
+		"build": "bunx --bun vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"bits-ui": "^0.21.12",
 		"clsx": "^2.1.1",
 		"tailwind-merge": "^2.4.0",
 		"tailwind-variants": "^0.2.1"
